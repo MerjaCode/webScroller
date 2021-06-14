@@ -6,13 +6,13 @@ installed.
 <p>&nbsp;</p>
 
 ## Google Chrome installation
----
+
 Use the default web browser to go to this [link](https://www.google.com/chrome/). Click on the download button and follow the  
 instructions to install Google Chrome. 
 <p>&nbsp;</p>
 
 ## Chrome driver download
----
+
 Use a Google Chrome to seach "chrome://version" in the search bar. Find the version number,   
 ![](./chromeversion.png)  
 This is found next to **Google Chrome**. Next go to this [link](https://sites.google.com/chromium.org/driver/downloads)
@@ -31,7 +31,7 @@ added to the path environment variable. If it doesn't end with an error you can 
 <p>&nbsp;</p>
 
 ## Python 3.8 installation
----
+
 Use a web browser to go this [link](https://www.python.org/downloads/release/python-387/), 
 scroll all the way down to **Files**, then select ***Windows Installler (64-bit)***  
 After it downloads find it with the file explorer and run the executable. In the first page make sure to  
@@ -40,14 +40,14 @@ Python and pip.
 <p>&nbsp;</p>
 
 ## Install Selenium
----
+
 Open a command prompt by using the search bar at the bottom left and searching cmd. In the command  
 prompt type "pip3 install selenium" if it doesn't crash with an error you have successfully installed all of  
 the required dependencies for this program.
 <p>&nbsp;</p>
 
 ## Run web_scroller.py
----
+
 Before you run this file you will have to edit it and add your username and password for the weather  
 station. Just scroll down to lines 47 and 48 and change the strings to your username and password.  
 
