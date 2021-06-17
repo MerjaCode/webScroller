@@ -3,7 +3,7 @@ import json
 from time import sleep
 
 driver = webdriver.Chrome()
-file = open("/home/cbroosky/Programming/Python/Projects/Website Scroller/urlList.json")
+file = open("./urlList.json")
 jsnFile = json.load(file)
 url_List = [url for url in jsnFile["url_list"]]
 
