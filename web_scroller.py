@@ -2,6 +2,8 @@ from selenium import webdriver
 import json
 from time import sleep
 
+print("Starting Web Scroller")
+
 driver = webdriver.Chrome()
 file = open("./urlList.json")
 jsnFile = json.load(file)
@@ -44,8 +46,8 @@ driver.switch_to.window(driver.window_handles[4])
 user_input      = "//*[@id=\"username\"]"
 pass_input      = "//*[@id=\"password\"]"
 login_btn       = "//*[@id=\"submit\"]"
-uname           = "USERNAME"
-passwd          = "PASSWORD"
+uname           = "chuckmerja"
+passwd          = "soilmoisture"
 driver.find_element_by_xpath(user_input).send_keys(uname)
 driver.find_element_by_xpath(pass_input).send_keys(passwd)
 driver.find_element_by_xpath(login_btn).click()
@@ -54,13 +56,21 @@ driver.find_element_by_xpath(login_btn).click()
 
 # Cycle through tabs
 
-wait_time = 10  # seconds
-
+wait_time = 15  # seconds
+count = 1
+refresh = False
 while True:
     try:
+        if count == 10:
+            refresh = True 
+            count = -1
         for i in range(len(url_List)):
+            if refresh:
+                driver.refresh()
             driver.switch_to.window(driver.window_handles[i])
             sleep(wait_time)
+        count += 1
     except Exception as e:
         print(e)
         break
+

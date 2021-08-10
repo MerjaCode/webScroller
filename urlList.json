@@ -1,6 +1,6 @@
 {
     "url_list": [
-        "https://forecast.weather.gov/MapClick.php?lon=-111.76734924316403&lat=47.46152250874388#.YKUTWtLYp1s",
+        "https://forecast.weather.gov/MapClick.php?lat=47.50732000000005&lon=-111.30606999999998#.YMwwKOhKiM8",
         "https://www.accuweather.com/en/us/sun-river/59483/weather-radar/2197078",
         "https://www.cmegroup.com/trading/agricultural/grain-and-oilseed/kc-wheat_quotes_globex.html?optionProductId=7331",
         "https://www.cmegroup.com/apps/cmegroup/widgets/productLibs/esignal-charts.html?code=KE&title=DEC_2021_KC_HRW_Wheat_&type=p&venue=0&monthYear=Z1&year=2021&exchangeCode=XCBT",
